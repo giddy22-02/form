@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+body{
+    background: url(./bank.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Poppins;
+}
+
+.btn:hover {
+    opacity: 0.8;
+  }
+  
+  
+  /* Style the header */
+  .header{
+      color:white;
+      text-transform: uppercase;
+      padding: 20px 10px; 
+      height: 1%;
+      background:linear-gradient(125deg,#a72879, #064496);
+    }
+    .header h3{
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+.container{
+    background:linear-gradient(125deg,#a72879, #064496);
+}
+.application{
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0, 10px, 30px, 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    
+
+}
+.application .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 26px;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #f4524d 0%, #a09eaf 100%);
+     -webkit-text-fill-color:transparent;
+     -webkit-background-clip: text;
+}
+.application p{
+    text-transform:capitalize;
+    text-align: center;
+    letter-spacing: 3px
+}
+.applicant-details{
+    margin: 5px;
+    padding: 0px;
+}
+
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0px;
+   border: none;
+}
+.applicant-details h3{
+    color: #fff;
+    font-size: 20px;
+}
+.contact-form .input-text,select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.contact-form .input-text:focus+ .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-26px);
+    color: #fff;
+}
+.contact-form .input-text, select:focus{
+    outline: none;
+
+}
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.1s ease-in-out;
+}
+.next-of-kin h3{
+    color: #fff;
+    font-size: 20px;
+}
+#relationship{
+    color: #5543ca;
+}
+.contact-form .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg,#a72879, #064496);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 1px solid white;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:linear-gradient(125deg,#a72879, #064496);
+    color: white;
+    text-align: center;
+    min-height: 5%;
+    font-size: 16px;
+  }
